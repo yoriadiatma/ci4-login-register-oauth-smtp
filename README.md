@@ -11,7 +11,7 @@ Menggunakan integrasi SMTP (Gmail) untuk pengiriman email, serta Google API Clie
 1. **Clone Repository**
 
    ```bash
-   git clone https://github.com/username/nama-repo.git
+   git clone https://github.com/yoriadiatma/ci4-login-register-oauth-smtp.git
    cd nama-repo
    ```
 
