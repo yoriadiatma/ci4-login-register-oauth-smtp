@@ -239,7 +239,7 @@ class AuthController extends Controller
             // Setelah dapat/user tersedia, set sesi dan redirect
             session()->set([
                 'isLoggedIn' => true,
-                'user'       => $user['id'],
+                'userId'       => $user['id'],
                 'username'   => $user['username'],
                 'email'      => $user['email'],
             ]);

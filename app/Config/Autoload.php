@@ -39,6 +39,7 @@ class Autoload extends AutoloadConfig
      */
     public $psr4 = [
         APP_NAMESPACE => APPPATH,
+        'Midtrans'    => ROOTPATH . 'vendor/midtrans/midtrans-php/src',
     ];
 
     /**

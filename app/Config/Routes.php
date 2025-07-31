@@ -24,3 +24,10 @@ $routes->match(['GET', 'POST'], 'auth/reset/(:segment)', [\App\Controllers\AuthC
 
 $routes->get('auth/google', 'AuthController::google');
 $routes->get('auth/google/callback', 'AuthController::googleCallback');
+
+// Rute untuk Toko dan Pembayaran
+// Pastikan user sudah login sebelum mengakses toko
+$routes->get('/shop', 'ShopController::index'); 
+$routes->get('/shop/history', 'ShopController::history');
+$routes->post('/midtrans/process', 'MidtransController::process');
+$routes->post('/midtrans/notification', 'MidtransController::notification');

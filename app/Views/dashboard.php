@@ -10,7 +10,7 @@
         <div class="card p-4 shadow">
             <h4>Selamat datang, <?= esc($username) ?>!</h4>
             <p>Ini adalah halaman Dashboard Anda.</p>
-
+            <a class="btn btn-success mb-4" href="<?= base_url('/shop') ?>">Belanja</a>
             <a class="btn btn-warning" href="<?= base_url('/auth/logout') ?>">Logout</a>
         </div>
     </div>
